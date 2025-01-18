@@ -8,7 +8,7 @@
     <title>90-North</title>
 </head>
 <body>
-  <header class="fixed top-0 navbar bg-base-300">
+  <header class="top-0 navbar bg-base-300">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -28,30 +28,28 @@
         <ul
           tabindex="0"
           class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-          <li><a>Item 1</a></li>
-          <li>
-            <a>Item 2</a>
-          </li>
-          <li><a>Item 3</a></li>
+          <li><a>Home</a></li>
+          <li><a>Shoes</a></li>
+          <li><a>Bags</a></li>
+          <li><a>Contact Us</a></li>
         </ul>
       </div>
       <a class="btn btn-ghost text-xl">daisyUI</a>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Item 2</a>
-        </li>
-        <li><a>Item 3</a></li>
+        <li><a>Home</a></li>
+          <li><a>Shoes</a></li>
+          <li><a>Bags</a></li>
+          <li><a>Contact Us</a></li>
       </ul>
     </div>
     <div class="navbar-end">
       <a class="btn">Button</a>
     </div>
   </header>
-  <main class="sticky mt-4">
-    <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
+  <main class="sticky m-4">
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-4 my-2">
       <div class="card bg-base-100 w-96 shadow-xl">
         <figure>
           <img
@@ -179,7 +177,7 @@
         </div>
       </div>
     </div>
-    <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-4 my-3">
+    <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
       <div class="card card-side bg-base-100 shadow-xl">
         <figure>
           <img
@@ -286,5 +284,6 @@
         <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
       </aside>
   </footer>
+  <script src="./js/index.js"></script>
 </body>
 </html>
