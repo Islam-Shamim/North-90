@@ -8,7 +8,8 @@
     <title>90-North</title>
 </head>
 <body>
-  <header class="top-0 navbar bg-base-300">
+  <!-- Navber -->
+  <header class="sticky top-0  navbar bg-yellow-300">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -25,32 +26,60 @@
               d="M4 6h16M4 12h8m-8 6h16" />
           </svg>
         </div>
-        <ul
-          tabindex="0"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-          <li><a>Home</a></li>
-          <li><a>Shoes</a></li>
-          <li><a>Bags</a></li>
-          <li><a>Contact Us</a></li>
-        </ul>
       </div>
       <a class="btn btn-ghost text-xl">daisyUI</a>
     </div>
-    <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
-        <li><a>Home</a></li>
-          <li><a>Shoes</a></li>
-          <li><a>Bags</a></li>
-          <li><a>Contact Us</a></li>
-      </ul>
+    <div class="navbar-center">
+      <h1 class="text-6xl font-bold text-red-600">Welcome to our Website</h1>
     </div>
     <div class="navbar-end">
       <a class="btn">Button</a>
     </div>
   </header>
-  <main class="sticky m-4">
-    <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-4 my-2">
-      <div class="card bg-base-100 w-96 shadow-xl">
+  <!-- main container -->
+  <main class="static grid grid-cols-1 md:grid-cols-5 lg:grid-cols-6 gap-4">
+    <!-- left side menu -->
+   <div class="text-center p-4">
+    <p class="text-xl font-semibold">Left menu</p>
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Item 1</a></li>
+            <li><a>Item 2</a></li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu">
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+          <li><a>Item 3</a></li>
+        </ul>
+      </div>
+  </div>
+   </div>
+  <!-- main content -->
+   <div class="md:col-span-3 lg:col-span-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-2">
+      <div class="card bg-base-100 w-full static shadow-xl">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -64,7 +93,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-base-100 w-96 shadow-xl">
+      <div class="card bg-base-100 w-full static shadow-xl">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -78,7 +107,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-base-100 w-96 shadow-xl">
+      <div class="card bg-base-100 w-full static shadow-xl">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -92,7 +121,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-base-100 w-96 shadow-xl">
+      <div class="card bg-base-100 w-full static shadow-xl">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -106,7 +135,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-base-100 w-96 shadow-xl">
+      <div class="card bg-base-100 w-full static shadow-xl">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -120,7 +149,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-base-100 w-96 shadow-xl">
+      <div class="card bg-base-100 w-full static shadow-xl">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -134,7 +163,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-base-100 w-96 shadow-xl">
+      <div class="card bg-base-100 w-full static shadow-xl">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -148,7 +177,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-base-100 w-96 shadow-xl">
+      <div class="card bg-base-100 w-full static shadow-xl">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -162,7 +191,7 @@
           </div>
         </div>
       </div>
-      <div class="card bg-base-100 w-96 shadow-xl">
+      <div class="card bg-base-100 w-full static shadow-xl">
         <figure>
           <img
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -176,67 +205,14 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
-      <div class="card card-side bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-            alt="Movie" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Watch</button>
-          </div>
-        </div>
-      </div>
-      <div class="card card-side bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-            alt="Movie" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Watch</button>
-          </div>
-        </div>
-      </div>
-      <div class="card card-side bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-            alt="Movie" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Watch</button>
-          </div>
-        </div>
-      </div>
-      <div class="card card-side bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-            alt="Movie" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Watch</button>
-          </div>
-        </div>
-      </div>
-    </div>
+   </div>
+   </div>
+  <!-- right-side panel -->
+  <div class="p-4">
+    Right Panel
+  </div>
   </main>
-  <footer class="footer footer-center bg-base-200 text-base-content rounded p-10 mt-4">
+  <footer class="footer footer-center bg-base-300 text-base-content rounded p-10 mt-4">
       <nav class="grid grid-flow-col gap-4">
         <a class="link link-hover">About us</a>
         <a class="link link-hover">Contact</a>
